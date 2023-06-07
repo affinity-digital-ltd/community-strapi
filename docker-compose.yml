@@ -36,10 +36,10 @@ services:
       
   mystrapiDB:
     container_name: mystrapiDB
-    platform: linux/amd64 #for platform error on Apple M1 chips
+    platform: ${DB_PLATFORM_VERSION} #for platform error on Apple M1 chips
     restart: unless-stopped
     env_file: .env
-    image: postgres:14.5-alpine
+    image: ${DB_IMAGE_VERSION}  #for platform warning on Apple M1 chips
     environment:
       POSTGRES_USER: ${DATABASE_USERNAME}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
