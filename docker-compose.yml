@@ -2,7 +2,10 @@ version: '3'
 services:
   mystrapi:
     container_name: mystrapi
-    build: .
+    build: {
+      "context": ".",
+      "dockerfile": "./Dockerfile.dev"
+    }
     image: mystrapi:latest
     restart: unless-stopped
     env_file: .env
