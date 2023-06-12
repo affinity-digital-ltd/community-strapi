@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_hero_homepage_heroes",
+  "info": {
+    "displayName": "Homepage Hero",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text",
+      "required": true,
+      "default": "Aruna Ratanagiri"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
