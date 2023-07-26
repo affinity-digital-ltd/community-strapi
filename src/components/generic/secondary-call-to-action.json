@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_generic_secondary_call_to_actions",
+  "info": {
+    "displayName": "Secondary Call To Action",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.cta-link"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

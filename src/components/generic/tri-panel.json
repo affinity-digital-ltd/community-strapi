@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_generic_tri_panels",
+  "info": {
+    "displayName": "Tri-Panel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.cta-link"
+    }
+  }
+}

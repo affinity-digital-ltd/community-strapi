@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_generic_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.cta-link"
+    }
+  }
+}
