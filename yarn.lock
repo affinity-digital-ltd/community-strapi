@@ -9443,6 +9443,11 @@ strapi-plugin-menus@^1.4.1:
     react-select "^5.2.2"
     styled-components "5.3.3"
 
+strapi-plugin-populate-deep@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-3.0.0.tgz#bd2b7145c4d1d79381698be7995d4dc454416ffd"
+  integrity sha512-4xpg0JxdaIIeO3wQLIO6Lh5ppbN8kXVl9uopQbs2AhwEf1KwLMSSZjaNoN7shCrxt1cET/u2GTDKG+Nlq54ZKg==
+
 strapi-provider-email-postmark@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/strapi-provider-email-postmark/-/strapi-provider-email-postmark-4.0.1.tgz#a7f2e388b89f4b5a41ff42ecac5f269831a19402"
