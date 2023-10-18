@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_generic_primary_call_to_actions",
+  "info": {
+    "displayName": "Primary Call To Action",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "PageLink": {
+      "displayName": "CTA Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.cta-link"
+    }
+  }
+}

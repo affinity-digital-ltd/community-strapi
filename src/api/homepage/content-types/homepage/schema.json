@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Jumbotron": {
+      "displayName": "Jumbotron",
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.jumbotron"
+    },
+    "PrimaryCTA": {
+      "displayName": "Primary Call To Action",
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.primary-call-to-action"
+    },
+    "PageImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.full-width-image"
+    },
+    "SecondaryCTA": {
+      "displayName": "Secondary Call To Action",
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.secondary-call-to-action"
+    },
+    "PanelLinks": {
+      "displayName": "Tri-Panel",
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.tri-panel"
+    }
+  }
+}

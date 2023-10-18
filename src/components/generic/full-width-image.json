@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_generic_full_width_images",
+  "info": {
+    "displayName": "Full Width Image",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
