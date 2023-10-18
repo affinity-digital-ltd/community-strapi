@@ -40,11 +40,6 @@
       "type": "component",
       "repeatable": true,
       "component": "generic.tri-panel"
-    },
-    "Footer": {
-      "type": "component",
-      "repeatable": true,
-      "component": "generic.footer"
     }
   }
 }
